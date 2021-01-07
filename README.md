@@ -1,5 +1,7 @@
 ## node-als-example
 
+[![Build Status](https://travis-ci.com/peterdee/node-als-example.svg?branch=develop)](https://travis-ci.com/peterdee/node-als-example)
+
 An example of how the [Async Local Storage (ALS)](https://nodejs.org/api/async_hooks.html#async_hooks_class_asynclocalstorage) from [`async_hooks`](https://nodejs.org/api/async_hooks.html) can be utilized.
 
 The application is a basic [Express](http://expressjs.com) server that writes data into the ALS in the middleware and then reads data from ALS in the API handler.
